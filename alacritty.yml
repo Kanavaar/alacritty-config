@@ -8,6 +8,7 @@
 ## Import files (Colors, Fonts, Etc)
 import:
   - ~/.config/alacritty/edge.yml
+  - ~/.config/alacritty/font.yml
 
 ## Set environment variables
 env:
@@ -20,9 +21,9 @@ window:
     columns: 82
     lines: 24
 
-  padding:
-    x: 12
-    y: 12
+    # padding:
+    #   x: 12
+    #   y: 12
 
   decorations: full
   startup_mode: Windowed
